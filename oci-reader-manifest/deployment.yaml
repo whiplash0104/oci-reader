@@ -4,7 +4,7 @@ metadata:
   name: oci-reader
   namespace: oci-reader-test
 spec:
-  replicas: 3
+  replicas: 5
   selector:
     matchLabels:
       app: oci-reader
